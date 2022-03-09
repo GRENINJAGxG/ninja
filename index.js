@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
 });
 
-bot.login("OTUwNzI2MTk0MTcxNjMzNjk0.YidGxA.syd-am8GGXb_PfC8lw6CySnAaeU")
+bot.login("OTUwNzI2MTk0MTcxNjMzNjk0.YidGxA.q67u3pkRJ0c2zz6kiaSH62MIOPQ")
 
 bot.on('message', msg => {
     
@@ -143,11 +143,11 @@ bot.on('message', msg => {
         const mensaje = new Discord.MessageEmbed()
         .setAuthor(msg.author.tag, msg.author.avatarURL())
         .setColor("#c73e10")
-        .addField("\<:info:820801226216177684> CFX Server Info", "`>cfind [cfx code]`")
-        .addField("\<:ip:820801530172801035> Get Server IP", "`>cip [cfx code]`")
-        .addField("\<:logo:820801824050905129> Get Server Logo", "`>clogo [cfx code]`")
-        .addField("\<:tags:820801679208349737> Get Server Tags", "`>ctags [cfx code]`")
-        .addField("\<:resources:863110994791235624> Get Server Resources", "`>cresources [cfx code]`")
+        .addField("\<:info:820801226216177684> CFX Server Info", "`$cfind [cfx code]`")
+        .addField("\<:ip:820801530172801035> Get Server IP", "`$cip [cfx code]`")
+        .addField("\<:logo:820801824050905129> Get Server Logo", "`$clogo [cfx code]`")
+        .addField("\<:tags:820801679208349737> Get Server Tags", "`$ctags [cfx code]`")
+        .addField("\<:resources:863110994791235624> Get Server Resources", "`$cresources [cfx code]`")
         .setFooter("Coded by ! GRENINJA#2018")
         msg.channel.send(mensaje);
     
